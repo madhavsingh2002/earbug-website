@@ -10,11 +10,6 @@ function HeroSection() {
         justifyContent: "center",
         gap: theme.spacing(5),
         marginTop: theme.spacing(3),
-        [theme.breakpoints.down("md")]: {
-            flexDirection: "column",
-            alignItems: "center",
-            textAlign: "center",
-        },
     }));
 
     const Title = styled(Typography)(({ theme }) => ({
@@ -22,9 +17,6 @@ function HeroSection() {
         color: "white",
         fontWeight: "bold",
         margin: theme.spacing(4, 0, 4, 0),
-        [theme.breakpoints.down("sm")]: {
-            fontSize: "40px",
-        },
     }));
     return (
         <Box sx={{ backgroundColor: "#000000", backgroundImage: 'linear-gradient(147deg, #000000 0%, #434343 74%)', minHeight: "100vh" }}>
@@ -45,23 +37,23 @@ function HeroSection() {
                             Welcome to Cross Beats
                         </Typography>
                         <Title variant="h1">
-                        "Groove to the Beat of the Coolest Earbug
+                            Groove to the Beat of the Coolest Earbug
                         </Title>
                         <Typography
                             variant="body2"
                             sx={{ fontSize: "18px", color: "#c0c0c0", my: 4 }}
                         >
-                            "Elevate your auditory experience with our cutting-edge Earbug – where style meets superior sound quality. Discover your perfect rhythm today!"
+                            Elevate your auditory experience with our cutting-edge Earbug – where style meets superior sound quality. Discover your perfect rhythm today!
                         </Typography>
-                        
-                        <button style={{width:'150px'}} className='button-28'>
+
+                        <button style={{ width: '150px' }} className='button-28'>
                             Buy Now
                         </button>
-                        
-                        
+
+
                     </Box>
 
-                    <Box sx={{marginLeft:'2rem' }}>
+                    <Box sx={{ marginLeft: '2rem' }}>
                         <img
                             src={Hero}
                             alt="heroImg"

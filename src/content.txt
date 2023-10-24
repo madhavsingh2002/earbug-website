@@ -1,0 +1,4 @@
+backgroundColor: "#000000", backgroundImage: 'linear-gradient(147deg, #000000 0%, #434343 74%)',
+Welcome to Cross Beats
+Groove to the Beat of the Coolest Earbug
+Elevate your auditory experience with our cutting-edge Earbug – where style meets superior sound quality. Discover your perfect rhythm today!
